@@ -1,0 +1,18 @@
+{
+  "id": "5acdb8dd-2902-4199-a4cb-f63d7be8166b",
+  "name": "Luxury-Car",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///d%3A/Luxury-Car"
+      }
+    ]
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "sandboxMode": false,
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_TURBO"
+  },
+  "isWorkspaceOnly": false
+}

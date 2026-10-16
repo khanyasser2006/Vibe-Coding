@@ -1,0 +1,53 @@
+{
+  "id": "e27f6fbc-e590-4d3f-98f5-22798e369fe2",
+  "name": "3D Website",
+  "projectResources": {
+    "resources": [
+      {
+        "gitFolder": {
+          "folderUri": "file:///d%3A/3D%20Website",
+          "defaultBranch": "main"
+        }
+      }
+    ]
+  },
+  "permissionGrants": {
+    "permissionGrants": {
+      "allow": [
+        "command(mv)",
+        "command(git status)",
+        "command(powershell)",
+        "command(npm run)",
+        "command(cmd.exe)",
+        "command(findstr)",
+        "command(dir)",
+        "command(Get-Content)",
+        "command(npm install)",
+        "command(cmd)",
+        "command(git diff)",
+        "command(git log)",
+        "command(ls)",
+        "command(git checkout)",
+        "command((Get-Content)",
+        "command(type)",
+        "command(Stop-Process)",
+        "command(npm i)",
+        "command($content)",
+        "command($content)",
+        "command($content)",
+        "command($content)",
+        "command($content)",
+        "write_file(d:\\3D Website\\.env)",
+        "command(git show)",
+        "command(ren)",
+        "command(curl.exe)"
+      ]
+    }
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_OFF",
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_ALWAYS"
+  },
+  "updatedAt": "2026-06-10T17:10:35.495982200Z"
+}

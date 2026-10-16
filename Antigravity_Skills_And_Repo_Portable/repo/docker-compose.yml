@@ -1,0 +1,9 @@
+services:
+  cine-glacier:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cine_glacier_app
+    ports:
+      - "5173:80"
+    restart: unless-stopped

@@ -1,0 +1,25 @@
+{
+  "id": "7775aad2-5b90-4bf6-816a-fd0e53903c08",
+  "name": "Coffee-Shop",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///d%3A/Coffee-Shop"
+      }
+    ]
+  },
+  "permissionGrants": {
+    "permissionGrants": {
+      "allow": [
+        "command(npm.cmd run build; npx.cmd --yes @google/design.md lint; node test_phases.js)"
+      ]
+    }
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "sandboxMode": false,
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_OFF"
+  },
+  "updatedAt": "2026-08-21T13:06:23.474401500Z",
+  "isWorkspaceOnly": false
+}

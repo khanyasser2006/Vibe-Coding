@@ -1,0 +1,18 @@
+{
+  "id": "ed9682fa-ae94-42dc-b7cb-ad885fee960d",
+  "name": "Ice-Cream",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///d%3A/Ice-Cream"
+      }
+    ]
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "sandboxMode": false,
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_TURBO"
+  },
+  "isWorkspaceOnly": false
+}

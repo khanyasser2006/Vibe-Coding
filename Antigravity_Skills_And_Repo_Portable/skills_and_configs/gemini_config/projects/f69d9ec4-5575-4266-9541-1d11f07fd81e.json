@@ -1,0 +1,18 @@
+{
+  "id": "f69d9ec4-5575-4266-9541-1d11f07fd81e",
+  "name": "Flower--Shop",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///d%3A/Flower--Shop"
+      }
+    ]
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "sandboxMode": false,
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_TURBO"
+  },
+  "isWorkspaceOnly": false
+}

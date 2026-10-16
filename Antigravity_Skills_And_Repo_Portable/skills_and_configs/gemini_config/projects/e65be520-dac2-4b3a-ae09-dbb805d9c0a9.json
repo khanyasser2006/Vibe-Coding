@@ -1,0 +1,18 @@
+{
+  "id": "e65be520-dac2-4b3a-ae09-dbb805d9c0a9",
+  "name": "Mountain-Trekking",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///d%3A/Mountain-Trekking"
+      }
+    ]
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "sandboxMode": false,
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_TURBO"
+  },
+  "isWorkspaceOnly": false
+}

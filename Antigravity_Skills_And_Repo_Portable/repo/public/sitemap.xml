@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Home Page -->
+  <url>
+    <loc>https://cine-glacier.fr/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://cine-glacier.fr/assets/cine-cone-hero.png</image:loc>
+      <image:title>Ciné Haute Glacerie &bull; Signature White Peach Scoop</image:title>
+      <image:caption>Artisanal French-Mediterranean White Peach &amp; Valencian Tangerine Ice Cream</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Flavors Catalog -->
+  <url>
+    <loc>https://cine-glacier.fr/#/flavors</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cine-glacier.fr/assets/cine-bowl-signature.png</image:loc>
+      <image:title>Ciné Summer Harvest Flavors Collection</image:title>
+    </image:image>
+  </url>
+
+  <!-- How It's Made / Artisanal Atelier -->
+  <url>
+    <loc>https://cine-glacier.fr/#/how-its-made</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Flagship Boutiques -->
+  <url>
+    <loc>https://cine-glacier.fr/#/shops</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Photography Visual Journal -->
+  <url>
+    <loc>https://cine-glacier.fr/#/photos</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Tasting Flight Box / Member Portal -->
+  <url>
+    <loc>https://cine-glacier.fr/#/account</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

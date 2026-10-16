@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="peachGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEC5A8" />
+      <stop offset="100%" stop-color="#F4784E" />
+    </linearGradient>
+  </defs>
+  <!-- Background circular pill -->
+  <rect width="64" height="64" rx="20" fill="url(#peachGrad)" />
+  <!-- Elegant Serif Ciné 'C' with Accent -->
+  <text x="32" y="44" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" fill="#38140B" text-anchor="middle">C</text>
+  <!-- Artisanal sun dot accent -->
+  <circle cx="43" cy="18" r="3.5" fill="#DE5F32" />
+</svg>

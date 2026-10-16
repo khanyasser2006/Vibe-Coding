@@ -1,0 +1,24 @@
+{
+  "id": "a9510225-24d0-4f87-8e2f-7de3df010c9a",
+  "name": "Home-Designers-1",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///d%3A/Home-Designers-1"
+      }
+    ]
+  },
+  "permissionGrants": {
+    "permissionGrants": {
+      "allow": [
+        "command(powershell -ExecutionPolicy Bypass -Command \"node scripts/test-seo-and-animations.cjs\")"
+      ]
+    }
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "sandboxMode": false,
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_OFF"
+  },
+  "isWorkspaceOnly": false
+}

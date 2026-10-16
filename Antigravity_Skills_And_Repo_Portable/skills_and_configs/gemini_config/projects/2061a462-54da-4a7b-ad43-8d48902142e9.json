@@ -1,0 +1,18 @@
+{
+  "id": "2061a462-54da-4a7b-ad43-8d48902142e9",
+  "name": "Yacht-Services",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///d%3A/Yacht-Services"
+      }
+    ]
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "sandboxMode": false,
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_TURBO"
+  },
+  "isWorkspaceOnly": false
+}

@@ -1,0 +1,19 @@
+# Robots.txt for Ciné Haute Glacerie (https://cine-glacier.fr)
+User-agent: *
+Allow: /
+Allow: /#/flavors
+Allow: /#/how-its-made
+Allow: /#/photos
+Allow: /#/shops
+Allow: /#/account
+
+# Disallow indexing of the Headless CMS Admin Studio
+Disallow: /admin
+Disallow: /#/admin
+
+# Crawl delay and host declaration
+Crawl-delay: 1
+Host: https://cine-glacier.fr
+
+# Official Sitemap location
+Sitemap: https://cine-glacier.fr/sitemap.xml

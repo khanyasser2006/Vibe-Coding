@@ -1,0 +1,18 @@
+{
+  "id": "4e3f4120-4dc9-490a-9dcc-eba5e2b06955",
+  "name": "Home-Designers",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///d%3A/Home-Designers"
+      }
+    ]
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "sandboxMode": false,
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_OFF"
+  },
+  "updatedAt": "2026-08-26T12:10:19.468304100Z",
+  "isWorkspaceOnly": false
+}

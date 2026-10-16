@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-peach: #FEC5A8;
+  --color-tangerine: #F4784E;
+  --color-peach-light: #FFF2EB;
+  --color-tangerine-deep: #DE5F32;
+  --color-terracotta: #38140B;
+  --color-terracotta-muted: #7D4132;
+}
+
+/* Custom Lenis Smooth Scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Subtle Film Grain */
+.film-grain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Dual Palette Glassmorphism */
+.glass-panel-peach {
+  background: rgba(254, 197, 168, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(244, 120, 78, 0.35);
+}
+
+.glass-panel-tangerine {
+  background: rgba(244, 120, 78, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(254, 197, 168, 0.45);
+}
+
+.glass-panel-dark {
+  background: rgba(56, 20, 11, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(254, 197, 168, 0.28);
+}
+
+/* Dual Gradient Backdrops */
+.bg-dual-peach-tangerine {
+  background: linear-gradient(135deg, #FEC5A8 0%, #F4784E 100%);
+}
+
+.bg-dual-tangerine-terracotta {
+  background: linear-gradient(145deg, #F4784E 0%, #DE5F32 40%, #38140B 100%);
+}
+
+.bg-dual-peach-light {
+  background: linear-gradient(180deg, #FEC5A8 0%, #FFF2EB 40%, #FEC5A8 100%);
+}
+
+/* Explicit Palette and Surface utilities */
+.bg-terracotta {
+  background-color: #38140B;
+}
+
+.bg-terracotta-dark {
+  background-color: #250B05;
+}
+
+.bg-terracotta-card {
+  background-color: #4A1D11;
+}
+
+.bg-footer-dual {
+  background: linear-gradient(180deg, #2E120B 0%, #200A04 50%, #160602 100%);
+}
+
+/* Typography styles */
+.font-display-hero {
+  font-family: 'Italiana', 'Playfair Display', serif;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Luxury Easing & Animation Classes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 400ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+/* Card Hover Elevation with Dual Glow */
+.card-hover-luxury {
+  transition: transform 250ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 250ms cubic-bezier(0.16, 1, 0.3, 1), border-color 250ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover-luxury:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px -12px rgba(56, 20, 11, 0.18), 0 0 32px -4px rgba(244, 120, 78, 0.28);
+}
+
